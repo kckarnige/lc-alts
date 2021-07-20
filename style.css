@@ -1,0 +1,117 @@
+@import url("https://kckarnige.is-a.dev/femboi_owo/discord-font.css");
+
+html, body {
+    margin: 0;
+    font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #be3c41;
+    color: #fff;
+    overflow-y: overlay;
+}
+
+body::-webkit-scrollbar {
+    width: 0.4em;
+    background: rgba(0,0,0,0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.4);
+    border-radius: 25px;
+}
+
+.tfrudoing {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40;
+}
+
+.lightcord {
+    font-family: Discordinated;
+    color: #000;
+}
+
+#page-header .lightcord {
+    color: #be3c41;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+
+#page-header {
+    color: #fff;
+    background: #36393f;
+    padding-top: 25;
+    padding-bottom: 25;
+    z-index: 2;
+}
+
+.header-split {
+    background: #36393f;
+    width: 100%;
+    height: 10%;
+    padding-top: 25;
+    position: absolute;
+    transform-origin: top right;
+    transform: skewY(2deg);
+    z-index: 1;
+  }
+
+#message {
+    text-align: center;
+}
+
+#alternatives {
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    padding-bottom: 25px;
+}
+
+#BetterDiscord {
+    position: relative;
+    font-family: "Discordinated";
+    user-select: none;
+    text-align: left;
+    text-shadow: 0px 0px 10px #000;
+}
+
+#BetterDiscord a {
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+
+#Powercord {
+    position: relative;
+    font-family: "Discordinated";
+    user-select: none;
+    text-align: left;
+    transform: translateY(20%);
+    text-shadow: 0px 0px 10px #000;
+}
+
+#Powercord a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#ArmCord {
+    position: relative;
+    font-family: "Discordinated";
+    user-select: none;
+    text-align: left;
+    transform: translateY(20%);
+}
+
+#ArmCord img {
+    -webkit-filter: drop-shadow(0px 0px 5px #000);
+    filter: drop-shadow(0px 0px 5px #000);
+}
+
+pre, br, .header-split {
+    user-select: none;
+}
+
+.bdb {
+    font-size: 80%;
+    color: #3e82e5;
+}
